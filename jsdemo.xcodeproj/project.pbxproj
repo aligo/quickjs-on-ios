@@ -13,7 +13,52 @@
 		A207CC1122D9A1DE00DF339E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A207CC1022D9A1DE00DF339E /* Assets.xcassets */; };
 		A207CC1422D9A1DE00DF339E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A207CC1222D9A1DE00DF339E /* LaunchScreen.storyboard */; };
 		A207CC1722D9A1DE00DF339E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A207CC1622D9A1DE00DF339E /* main.m */; };
+		A207CC2922D9A2C100DF339E /* quicKjSruntimE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A207CC2222D9A2C100DF339E /* quicKjSruntimE.framework */; };
+		A207CC2A22D9A2C100DF339E /* quicKjSruntimE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A207CC2222D9A2C100DF339E /* quicKjSruntimE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A207CC5E22D9A4B700DF339E /* libunicode.c in Sources */ = {isa = PBXBuildFile; fileRef = A207CC4F22D9A4B600DF339E /* libunicode.c */; };
+		A207CC5F22D9A4B700DF339E /* cutils.c in Sources */ = {isa = PBXBuildFile; fileRef = A207CC5022D9A4B600DF339E /* cutils.c */; };
+		A207CC6022D9A4B700DF339E /* quickjs.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5122D9A4B600DF339E /* quickjs.h */; };
+		A207CC6122D9A4B700DF339E /* quickjs-atom.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5222D9A4B600DF339E /* quickjs-atom.h */; };
+		A207CC6222D9A4B700DF339E /* libregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5322D9A4B600DF339E /* libregexp.h */; };
+		A207CC6322D9A4B700DF339E /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5422D9A4B600DF339E /* list.h */; };
+		A207CC6422D9A4B700DF339E /* libunicode-table.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5522D9A4B600DF339E /* libunicode-table.h */; };
+		A207CC6522D9A4B700DF339E /* libregexp-opcode.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5622D9A4B600DF339E /* libregexp-opcode.h */; };
+		A207CC6622D9A4B700DF339E /* quickjs-opcode.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5722D9A4B600DF339E /* quickjs-opcode.h */; };
+		A207CC6722D9A4B700DF339E /* libbf.c in Sources */ = {isa = PBXBuildFile; fileRef = A207CC5822D9A4B600DF339E /* libbf.c */; };
+		A207CC6822D9A4B700DF339E /* quickjs.c in Sources */ = {isa = PBXBuildFile; fileRef = A207CC5922D9A4B600DF339E /* quickjs.c */; };
+		A207CC6922D9A4B700DF339E /* libunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5A22D9A4B600DF339E /* libunicode.h */; };
+		A207CC6A22D9A4B700DF339E /* libregexp.c in Sources */ = {isa = PBXBuildFile; fileRef = A207CC5B22D9A4B600DF339E /* libregexp.c */; };
+		A207CC6B22D9A4B700DF339E /* cutils.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5C22D9A4B700DF339E /* cutils.h */; };
+		A207CC6C22D9A4B700DF339E /* libbf.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC5D22D9A4B700DF339E /* libbf.h */; };
+		A207CC6E22D9A6BC00DF339E /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = A207CC6D22D9A6BC00DF339E /* test.m */; };
+		A207CC7122D9A76500DF339E /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC6F22D9A6EB00DF339E /* test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A207CC7422D9A79500DF339E /* quickjs-libc.h in Headers */ = {isa = PBXBuildFile; fileRef = A207CC7222D9A79400DF339E /* quickjs-libc.h */; };
+		A207CC7522D9A79500DF339E /* quickjs-libc.c in Sources */ = {isa = PBXBuildFile; fileRef = A207CC7322D9A79500DF339E /* quickjs-libc.c */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A207CC2722D9A2C100DF339E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A207CBFC22D9A1DD00DF339E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A207CC2122D9A2C100DF339E;
+			remoteInfo = quicKjSruntimE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A207CC2E22D9A2C100DF339E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A207CC2A22D9A2C100DF339E /* quicKjSruntimE.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A207CC0422D9A1DD00DF339E /* jsdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +71,39 @@
 		A207CC1322D9A1DE00DF339E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A207CC1522D9A1DE00DF339E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A207CC1622D9A1DE00DF339E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A207CC2222D9A2C100DF339E /* quicKjSruntimE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = quicKjSruntimE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A207CC2522D9A2C100DF339E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A207CC4F22D9A4B600DF339E /* libunicode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libunicode.c; path = quickjs/libunicode.c; sourceTree = "<group>"; };
+		A207CC5022D9A4B600DF339E /* cutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cutils.c; path = quickjs/cutils.c; sourceTree = "<group>"; };
+		A207CC5122D9A4B600DF339E /* quickjs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quickjs.h; path = quickjs/quickjs.h; sourceTree = "<group>"; };
+		A207CC5222D9A4B600DF339E /* quickjs-atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "quickjs-atom.h"; path = "quickjs/quickjs-atom.h"; sourceTree = "<group>"; };
+		A207CC5322D9A4B600DF339E /* libregexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libregexp.h; path = quickjs/libregexp.h; sourceTree = "<group>"; };
+		A207CC5422D9A4B600DF339E /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = list.h; path = quickjs/list.h; sourceTree = "<group>"; };
+		A207CC5522D9A4B600DF339E /* libunicode-table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "libunicode-table.h"; path = "quickjs/libunicode-table.h"; sourceTree = "<group>"; };
+		A207CC5622D9A4B600DF339E /* libregexp-opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "libregexp-opcode.h"; path = "quickjs/libregexp-opcode.h"; sourceTree = "<group>"; };
+		A207CC5722D9A4B600DF339E /* quickjs-opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "quickjs-opcode.h"; path = "quickjs/quickjs-opcode.h"; sourceTree = "<group>"; };
+		A207CC5822D9A4B600DF339E /* libbf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libbf.c; path = quickjs/libbf.c; sourceTree = "<group>"; };
+		A207CC5922D9A4B600DF339E /* quickjs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quickjs.c; path = quickjs/quickjs.c; sourceTree = "<group>"; };
+		A207CC5A22D9A4B600DF339E /* libunicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libunicode.h; path = quickjs/libunicode.h; sourceTree = "<group>"; };
+		A207CC5B22D9A4B600DF339E /* libregexp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libregexp.c; path = quickjs/libregexp.c; sourceTree = "<group>"; };
+		A207CC5C22D9A4B700DF339E /* cutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cutils.h; path = quickjs/cutils.h; sourceTree = "<group>"; };
+		A207CC5D22D9A4B700DF339E /* libbf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libbf.h; path = quickjs/libbf.h; sourceTree = "<group>"; };
+		A207CC6D22D9A6BC00DF339E /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		A207CC6F22D9A6EB00DF339E /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		A207CC7222D9A79400DF339E /* quickjs-libc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "quickjs-libc.h"; path = "quickjs/quickjs-libc.h"; sourceTree = "<group>"; };
+		A207CC7322D9A79500DF339E /* quickjs-libc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "quickjs-libc.c"; path = "quickjs/quickjs-libc.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A207CC0122D9A1DD00DF339E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A207CC2922D9A2C100DF339E /* quicKjSruntimE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A207CC1F22D9A2C100DF339E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				A207CC0622D9A1DD00DF339E /* jsdemo */,
+				A207CC2322D9A2C100DF339E /* quicKjSruntimE */,
 				A207CC0522D9A1DD00DF339E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				A207CC0422D9A1DD00DF339E /* jsdemo.app */,
+				A207CC2222D9A2C100DF339E /* quicKjSruntimE.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +147,56 @@
 			path = jsdemo;
 			sourceTree = "<group>";
 		};
+		A207CC2322D9A2C100DF339E /* quicKjSruntimE */ = {
+			isa = PBXGroup;
+			children = (
+				A207CC7322D9A79500DF339E /* quickjs-libc.c */,
+				A207CC7222D9A79400DF339E /* quickjs-libc.h */,
+				A207CC5022D9A4B600DF339E /* cutils.c */,
+				A207CC5C22D9A4B700DF339E /* cutils.h */,
+				A207CC5822D9A4B600DF339E /* libbf.c */,
+				A207CC5D22D9A4B700DF339E /* libbf.h */,
+				A207CC5622D9A4B600DF339E /* libregexp-opcode.h */,
+				A207CC5B22D9A4B600DF339E /* libregexp.c */,
+				A207CC5322D9A4B600DF339E /* libregexp.h */,
+				A207CC5522D9A4B600DF339E /* libunicode-table.h */,
+				A207CC4F22D9A4B600DF339E /* libunicode.c */,
+				A207CC5A22D9A4B600DF339E /* libunicode.h */,
+				A207CC5422D9A4B600DF339E /* list.h */,
+				A207CC5222D9A4B600DF339E /* quickjs-atom.h */,
+				A207CC5722D9A4B600DF339E /* quickjs-opcode.h */,
+				A207CC5922D9A4B600DF339E /* quickjs.c */,
+				A207CC5122D9A4B600DF339E /* quickjs.h */,
+				A207CC2522D9A2C100DF339E /* Info.plist */,
+				A207CC6D22D9A6BC00DF339E /* test.m */,
+				A207CC6F22D9A6EB00DF339E /* test.h */,
+			);
+			path = quicKjSruntimE;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A207CC1D22D9A2C100DF339E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A207CC6922D9A4B700DF339E /* libunicode.h in Headers */,
+				A207CC6322D9A4B700DF339E /* list.h in Headers */,
+				A207CC6C22D9A4B700DF339E /* libbf.h in Headers */,
+				A207CC6B22D9A4B700DF339E /* cutils.h in Headers */,
+				A207CC6522D9A4B700DF339E /* libregexp-opcode.h in Headers */,
+				A207CC7422D9A79500DF339E /* quickjs-libc.h in Headers */,
+				A207CC6622D9A4B700DF339E /* quickjs-opcode.h in Headers */,
+				A207CC6122D9A4B700DF339E /* quickjs-atom.h in Headers */,
+				A207CC7122D9A76500DF339E /* test.h in Headers */,
+				A207CC6222D9A4B700DF339E /* libregexp.h in Headers */,
+				A207CC6422D9A4B700DF339E /* libunicode-table.h in Headers */,
+				A207CC6022D9A4B700DF339E /* quickjs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A207CC0322D9A1DD00DF339E /* jsdemo */ = {
@@ -81,15 +206,35 @@
 				A207CC0022D9A1DD00DF339E /* Sources */,
 				A207CC0122D9A1DD00DF339E /* Frameworks */,
 				A207CC0222D9A1DD00DF339E /* Resources */,
+				A207CC2E22D9A2C100DF339E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A207CC2822D9A2C100DF339E /* PBXTargetDependency */,
 			);
 			name = jsdemo;
 			productName = jsdemo;
 			productReference = A207CC0422D9A1DD00DF339E /* jsdemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A207CC2122D9A2C100DF339E /* quicKjSruntimE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A207CC2B22D9A2C100DF339E /* Build configuration list for PBXNativeTarget "quicKjSruntimE" */;
+			buildPhases = (
+				A207CC1D22D9A2C100DF339E /* Headers */,
+				A207CC1E22D9A2C100DF339E /* Sources */,
+				A207CC1F22D9A2C100DF339E /* Frameworks */,
+				A207CC2022D9A2C100DF339E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quicKjSruntimE;
+			productName = quicKjSruntimE;
+			productReference = A207CC2222D9A2C100DF339E /* quicKjSruntimE.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +246,9 @@
 				ORGANIZATIONNAME = "aligo Kang";
 				TargetAttributes = {
 					A207CC0322D9A1DD00DF339E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A207CC2122D9A2C100DF339E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -119,6 +267,7 @@
 			projectRoot = "";
 			targets = (
 				A207CC0322D9A1DD00DF339E /* jsdemo */,
+				A207CC2122D9A2C100DF339E /* quicKjSruntimE */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +280,13 @@
 				A207CC1422D9A1DE00DF339E /* LaunchScreen.storyboard in Resources */,
 				A207CC1122D9A1DE00DF339E /* Assets.xcassets in Resources */,
 				A207CC0F22D9A1DD00DF339E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A207CC2022D9A2C100DF339E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +303,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A207CC1E22D9A2C100DF339E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A207CC6822D9A4B700DF339E /* quickjs.c in Sources */,
+				A207CC6A22D9A4B700DF339E /* libregexp.c in Sources */,
+				A207CC6722D9A4B700DF339E /* libbf.c in Sources */,
+				A207CC5E22D9A4B700DF339E /* libunicode.c in Sources */,
+				A207CC5F22D9A4B700DF339E /* cutils.c in Sources */,
+				A207CC6E22D9A6BC00DF339E /* test.m in Sources */,
+				A207CC7522D9A79500DF339E /* quickjs-libc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A207CC2822D9A2C100DF339E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A207CC2122D9A2C100DF339E /* quicKjSruntimE */;
+			targetProxy = A207CC2722D9A2C100DF339E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A207CC0D22D9A1DD00DF339E /* Main.storyboard */ = {
@@ -313,6 +491,62 @@
 			};
 			name = Release;
 		};
+		A207CC2C22D9A2C100DF339E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = "CONFIG_VERSION=\\\"2019\\\"";
+				INFOPLIST_FILE = quicKjSruntimE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chii.jsdemo.quicKjSruntimE;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A207CC2D22D9A2C100DF339E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = "CONFIG_VERSION=\\\"2019\\\"";
+				INFOPLIST_FILE = quicKjSruntimE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chii.jsdemo.quicKjSruntimE;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -330,6 +564,15 @@
 			buildConfigurations = (
 				A207CC1B22D9A1DE00DF339E /* Debug */,
 				A207CC1C22D9A1DE00DF339E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A207CC2B22D9A2C100DF339E /* Build configuration list for PBXNativeTarget "quicKjSruntimE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A207CC2C22D9A2C100DF339E /* Debug */,
+				A207CC2D22D9A2C100DF339E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
